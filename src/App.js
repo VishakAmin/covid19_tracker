@@ -50,6 +50,10 @@ function App() {
     getCountriesData()
   }, [])
 
+  useEffect(() => {
+    document.title = "Covid19 Tracker"
+  }, [])
+
   const onCountryChange = async (event) => {
     const countryCode = event.target.value;
     // console.log("Ypooo", countryCode);
@@ -103,10 +107,10 @@ function App() {
             isRed
             active={casesType === "cases"}
             onClick={(e) => setCasesType('cases')}
-            title="Coronavirus Cases" cases={prettyPrintStar(countryInfo.todayCases)} total={prettyPrintStar(countryInfo.cases)} />
+            title="Cases" cases={prettyPrintStar(countryInfo.todayCases)} total={prettyPrintStar(countryInfo.cases)} />
           <InfoBox
             active={casesType === "recovered"}
-            onClick={(e) => setCasesType("recovered")} title="Recovered" cases={prettyPrintStar(countryInfo.todayRecovered)} total={prettyPrintStar(countryInfo.recovered)} />
+            onClick={(e) => setCasesType("recovered")} title="Recover" cases={prettyPrintStar(countryInfo.todayRecovered)} total={prettyPrintStar(countryInfo.recovered)} />
           <InfoBox
             isRed
             isBlack
