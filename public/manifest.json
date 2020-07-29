@@ -5,11 +5,11 @@
         {
             "src": "/images/logo.png",
             "type": "image/png",
-            "sizes": "1024*1024"
+            "sizes": "1024x1024"
         }
     ],
     "start_url": ".",
-    "dispaly": "standalone",
+    "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff"
 }
