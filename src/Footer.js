@@ -24,7 +24,7 @@ function Footer() {
     return (
         <Typography align="center">
             Made With <FavoriteIcon fontSize="small" /> by {""}
-            <StyledButton href="https://github.com/VishakAmin"> Vishak Amin </StyledButton> {" "} using React.
+            <StyledButton href="https://vishakamin.github.io/"> Vishak Amin </StyledButton> {" "} using React.
 
         </Typography>
     )
