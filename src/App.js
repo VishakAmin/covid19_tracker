@@ -14,8 +14,8 @@ function App() {
   const [country, setCountry] = useState("worldwide")
   const [countryInfo, setCountryInfo] = useState({})
   const [tableData, settableData] = useState([])
-  const [mapCenter, setMapCenter] = useState({ lat: 34.88746, lng: -40.4796 })
-  const [mapZoom, setMapZoom] = useState(3)
+  const [mapCenter, setMapCenter] = useState({ lat: 20.5937, lng: 78.962 })
+  const [mapZoom, setMapZoom] = useState(4)
   const [mapCountries, setMapCountries] = useState([])
   const [casesType, setCasesType] = useState("cases")
 
