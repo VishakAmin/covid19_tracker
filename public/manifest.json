@@ -1,0 +1,15 @@
+{
+    "short_name": "Covid19 Tracker",
+    "name": "Covid19 Tracker PWA",
+    "icons": [
+        {
+            "src": "/images/logo.png",
+            "type": "image/png",
+            "sizes": "1024*1024"
+        }
+    ],
+    "start_url": ".",
+    "dispaly": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
